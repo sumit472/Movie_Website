@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.app-container {
+  text-align: center;
+  width: 500px;
+  /* height: 100vh; */
+  background-color: rgb(242, 252, 252);
+  /* margin: 15px; */
+}
+
+input::placeholder {
+  font-weight: 700;
+  font-size: 20px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.movie-heading {
+  text-align: center;
+}
+.search {
+  margin-top: 20px;
+}
+#search-input {
+  width: 50%;
+  height: 40px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 15px;
+  outline: none;
+  border-right: none;
+}
+#search-icon {
+  height: 45px;
+  width: 80px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  outline: none;
+
+  background-color: rgb(146, 250, 146);
+}
+.text-app {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  margin: 5px;
+}
+.movie-info p {
+  margin: 7px;
+}
+.poster {
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
